@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YETI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        #head {
+            font-size: 30px;
+            text-align: center;
+            font-family: cursive;
+        }
+        
+        p {
+            text-align: justify;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card-deck {
+            margin-bottom: 30px;
+        }
+
+        .jumbotron {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 50px;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            max-width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="yeti.png">
+  </head>
+  <body>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col"><p id="head">YETI- attempt to try</p></div>
+        </div>
+        <hr>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="instruct.html">Instruction</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="character.html">Characters</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact Us
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.instagram.com/thapa_b_kashchit/" target="_blank">Instagram</a></li>
+                      <li><a class="dropdown-item" href="https://www.linkedin.com/in/kashchit-bikram-thapa-7b7384282/" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        <hr>
+        <h2 class="text-center">YETI - Game Instructions</h2>
+        <hr>
+        <div class="container mt-5">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">About the Game</h2>
+                        <p class="card-text fs-5">YETI - Shadows of Deception is an immersive board game where shadows of deception lurk at every corner. Choose your character wisely, navigate treacherous terrain, form alliances, and be prepared for unexpected twists with the enigmatic Yeti.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Objectives</h2>
+                        <p class="card-text fs-5">Be the first player to reach the end point of the board, overcoming challenges, forming alliances, and adapting to the enigmatic movements of the Yeti.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">How to Play</h2>
+                        <p class="card-text fs-5">Follow these steps to emerge victorious:</p>
+                        <ol>
+                            <li>Select a character: Mime, Doctor, Builder, or Murderer.</li>
+                            <li>Spin the roulette to determine your character's moves.</li>
+                            <li>Navigate the board, engage in financial transactions, and form alliances.</li>
+                            <li>Beware of the Yeti: unpredictable movements await when you land on its spawn point.</li>
+                            <li>Reach the end point first to be crowned the ultimate victor!</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Game Rounds</h2>
+                        <ol class="fs-5">
+                           <li>Character Actions:</li>
+                           <ul>
+                            <li>Players take turns in a clockwise order.</li>
+                            <li>Spin the roulette to determine your character's moves (1-10).</li>
+                            <li>Use character abilities strategically by paying the designated cost to other players.</li>
+                           </ul>  
+                           <li>Yeti Encounters:</li>  
+                           <ul>
+                            <li>Landing on the Yeti spawn point activates its movements.</li>
+                            <li>Yeti will move +1 step every time players spin the roulette.</li>
+                            <li>Players it touches face unpredictable consequences, resetting their position.</li>
+                           </ul>
+                           <li>Financial Transactions:</li>
+                           <ul>
+                            <li>Engage in financial transactions with other players.</li>
+                            <li>Characters can pay others characters to use their abilities to make their way easier ahead. </li>
+                            <li>Pay the Doctor for protection or revival, the Builder for assistance, the Murderer for elimination, or the mime to copy others abilities. </li>
+                           </ul>
+                           <li>Adapt to the Board:</li>
+                           <ul>
+                            <li>Navigate obstacles, toll points, and the Yeti's movements.</li>
+                            <li>Strategize and adapt to the changing landscape, making tactical decisions to progress.</li>
+                           </ul>
+                        </ol>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Winning</h2>
+                        <p class="card-text fs-5">The first player to reach the end point, skillfully navigating challenges, forming alliances, and mastering encounters with the Yeti, claims victory.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Game Overview</h2>
+                        <p class="card-text fs-5">"YETI - Attempt to Try: Shadows of Deception" is a thrilling blend of strategy, deception, and unpredictability. Adapt your tactics, form alliances, and beware of the enigmatic Yeti as you race to be the ultimate victor. Are you ready to embrace the shadows of deception and outmaneuver your rivals? May the most cunning player triumph!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <img src="b1.jpg" width="200" height="200" class="img-fluid">
+            </div>
+        </div>
+        <center>
+            <div class="row">
+            <h4>YETI - attempt to try</h4>
+            <h6>Bangalore, India</h6>
+            <h6>+91 9035039761</h6>
+            </div>
+        <footer class="mt-5">&copy; Copyright Kashchit Thapa</footer>
+        </center>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
